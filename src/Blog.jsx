@@ -8,7 +8,9 @@ class Blog extends React.Component {
   render () {
     return (
       <>
-        <Article />
+        <Article title={"React"}/>
+        <Article title={"Component"}/>
+        <Article title={"再利用"}/>
       </>
     )
   }
